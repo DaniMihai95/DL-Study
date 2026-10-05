@@ -2,6 +2,8 @@
 tensorflow-cpu==2.20.*
 
 # Data and ML utilities
+# Note: TensorFlow 2.20 requires numpy<2. If you have packages that need
+# numpy>=2 (e.g. opencv), install them in a separate virtual environment.
 numpy>=1.26,<2.0
 scikit-learn>=1.4
 pandas>=2.2
