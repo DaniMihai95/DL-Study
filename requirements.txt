@@ -1,0 +1,19 @@
+# Core deep learning
+tensorflow-cpu==2.20.*
+
+# Data and ML utilities
+numpy>=1.26,<2.0
+scikit-learn>=1.4
+pandas>=2.2
+
+# Plotting
+matplotlib>=3.8
+seaborn>=0.13
+
+# Jupyter
+notebook>=7.0
+ipykernel>=6.29
+
+# Notebook execution (headless runs)
+nbclient>=0.10
+nbformat>=5.10
